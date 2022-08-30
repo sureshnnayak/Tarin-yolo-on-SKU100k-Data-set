@@ -1,0 +1,9 @@
+train: ../SKU110K_fixed/images/train/ 
+val:  ../SKU110K_fixed/images/val/
+test: ../SKU110K_fixed/images/test/
+
+# number of classes
+nc: 1
+
+# class names
+names: ["product"]
