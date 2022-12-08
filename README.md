@@ -6,4 +6,6 @@ Trainging YOLOv5 on SKU110K dataset
     refer this document for more details on yolo fpormat and training yolov5 on custom dataset : https://blog.paperspace.com/train-yolov5-custom-data/
 5. Edit sku_dataset.yaml file.
 6. train the model using the following command
- python train.py --img 640 --cfg yolov5s.yaml --hyp hyp.scratch.yaml --batch 32 --epochs 100 --data road_sign_data.yaml --weights yolov5s.pt --workers 24 --name yolo_road_det
+ 
+ 
+ python train.py --img 640 --cfg yolo5v.yaml  --batch 5 --epochs 10 --data sku_data.yaml --weights yolov5s.pt --workers 10 --name sku
